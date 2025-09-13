@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    line-height: 150%;
+}
+
+body{
+    background-color: #1a1a1a;
+    color: white;
+    font-family: sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.active{
+    border-bottom: 3px solid #38e07b;
+    padding-bottom: 8px;
+}
+
+.hero{
+    margin-top: 80px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.hero h1{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.hero p{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.hero .btn_container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+button{
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    font-weight: 600;
+    background: #38e07b;
+}
+
+#view_button{
+    background-color: #292e36;
+    color: white;
+}
+
+.green_txt{
+    color: #38e07b;
+}
+
+.section_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    padding-top: 128px;
+    background-color: #111827;
+}
+
+.section_2 h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.section_2 > div{
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.section_2 img{
+    border-radius: 20px;
+}
+
+.section_2 button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 480px) {
+    .section_2{
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+}
+
+/* ruleset */
+/* ways of selecting html elements in css */
+/* 1. Element's name
+    2. class
+    3. id
+    4. parent - child selector
+    5. direct child selector
+*/
+/* display
+1. inline elements
+2. block elements
+
+flex, grid, inline-block
+*/
