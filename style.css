@@ -144,3 +144,23 @@ button{
 
 flex, grid, inline-block
 */
+
+.Aboutheader{
+    font-size: 48px;
+    text-align: center;
+}
+
+.Fromour{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.About{
+    background-color: #122118;
+    padding: 100px;
+}
+
+.Explore{
+    text-align: center;
+    margin-top: 35px;
+}
