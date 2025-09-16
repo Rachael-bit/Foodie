@@ -1,5 +1,5 @@
 # Foodie Project
-
+live link: https://foodie-one-alpha.vercel.app/
 ## Header Section
 ![Header Screenshot](https://github.com/user-attachments/assets/d87abce4-83a3-49b4-9655-d43a8e442fb2)
 ## Hero Section
