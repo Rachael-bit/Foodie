@@ -11,4 +11,4 @@
 ## About Section
 ![About Section](https://github.com/user-attachments/assets/027aee6d-9f88-4e88-822e-c2e37a3c5da9)
 ## Contact Section
-![contact section](https://github.com/user-attachments/assets/90f87bfe-05e7-4c69-8d45-0546b2579a12)
+![contact section](https://github.com/user-attachments/assets/7dae2557-c09c-4762-8fe8-60b0f7e8abfc)
